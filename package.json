@@ -14,7 +14,7 @@
     "server"
   ],
   "engines": {
-    "node": "*"
+    "node": "12.x"
   },
   "dependencies": {
     "@babel/core": "7.0.0",
