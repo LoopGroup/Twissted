@@ -134,12 +134,12 @@ class TitleCard extends FullSize {
             ctx.font = "240px Arial Black";
             ctx.fillStyle = '#083F10';
             if (this.timer <= 30) ctx.fillText(">", (this.width / 2) + 5 - carrotOffset, this.y + 5 + 275);
-            ctx.fillText("LINK", (this.width / 2) - 5 - linkOffset, this.y + 5 + 275);
+            ctx.fillText("TWISSTED", (this.width / 2) - 5 - linkOffset, this.y + 5 + 275);
             ctx.fillStyle = '#208C30';
             if (this.timer >= 30) ctx.globalAlpha = 0.2;
             ctx.fillText(">", (this.width / 2) - carrotOffset, this.y + 275);
             if (this.timer >= 30) ctx.globalAlpha = 0.6;
-            ctx.fillText("LINK", (this.width / 2) - linkOffset, this.y + 275);
+            ctx.fillText("TWISTTED", (this.width / 2) - linkOffset, this.y + 275);
 
             ctx.font = "24px Arial Black";
             for (let i = 0; i < 36; i++) {
@@ -160,9 +160,8 @@ class CreditsTextOverlay extends FullSize {
         super(_screen);
         this.render = function () {
             [
-                'Cody Mikol|https://github.com/codymikol|grey',
-                'John Flynn|https://github.com/Neuman968|purple',
-                'Morgan Coleman|https://github.com/KingCole22|blue',
+                'ImKyleJK |https://imkyle.xyz/|purple',
+                'DevPeter|https://devpeter.xyz/|purple',
             ].forEach((line, index) => {
                 let parts = line.split('|');
                 text(parts[0], this.cX, 440 + 110 * index, undefined, 30, 1, 'center');
