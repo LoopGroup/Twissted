@@ -14,7 +14,8 @@
     "server"
   ],
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "yarn": "1.x"
   },
   "dependencies": {
     "@babel/core": "7.0.0",
